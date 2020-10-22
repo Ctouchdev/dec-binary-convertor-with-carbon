@@ -1,0 +1,74 @@
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  margin: 0 auto;
+  background-image: url("Background.png");
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.gold-color {
+  color: #00ff73;
+  text-shadow: 2px 2px 5px rgb(31, 43, 51);
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  margin: 1px 1px;
+}
+
+.calc-container {
+  padding: 0 100px;
+}
+
+.container-fluid {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+button {
+  display: inline-block;
+  background-color: #3b7e5a;
+  border: 0;
+  border-radius: 10px 10px 10px 0;
+  width: 160px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+input {
+  margin: 10px;
+  display: inline-block;
+  width: 335px;
+  height: 20px;
+}
+
+.header {
+  height: 30px;
+  color: #fff;
+  background-color: rgb(41, 61, 75);
+  opacity: 75%;
+}
+
+.footer {
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgba(255, 255, 255, 0.473);
+  background-color: rgb(41, 61, 75);
+}
